@@ -1,7 +1,7 @@
 import requests
 import time
 import schedule
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 from mcstatus import JavaServer
 
