@@ -5,11 +5,7 @@ from dotenv import load_dotenv
 import os
 from mcstatus import JavaServer
 
-<<<<<<< HEAD
 # load_dotenv() Not needed for railway deployment
-=======
-load_dotenv()
->>>>>>> b349e876d53ca35a2ad2e4d340a3cf708e3e196a
 HOST = os.getenv("MINECRAFT_SERVER_HOST")
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 PORT = os.getenv("MINECRAFT_SERVER_PORT")
